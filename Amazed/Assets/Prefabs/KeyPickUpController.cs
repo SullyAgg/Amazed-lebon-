@@ -22,7 +22,6 @@ public class KeyPickUpController : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             levelManager.keyPickUpNb += 1;
-
             levelManager.pickUpAudioBool = true;
             Destroy(gameObject);
         }

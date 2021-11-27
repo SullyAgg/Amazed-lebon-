@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MenuPauseController : MonoBehaviour
 {
+    void Start()
+    {
 
+    }
+    void resume()
+    {
+        gameObject.SetActive(false);
+    }
     
 }
