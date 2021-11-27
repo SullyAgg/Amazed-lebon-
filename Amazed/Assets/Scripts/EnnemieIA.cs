@@ -34,4 +34,7 @@ public class EnnemieIA : MonoBehaviour
         waypointIndex++;
         target = Waypoints.points[waypointIndex];
     }
+   
+    
+
 }

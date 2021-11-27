@@ -8,12 +8,14 @@ public class LevelManager : MonoBehaviour
     
     public Text timerText;
     public Text pickUpNbText;
+    public Text keyPickUpNbText;
 
 
     private float secondsCount;
     private int minuteCount;
     public float life = 3;
     public int pickUpNb =0;
+    public int keyPickUpNb = 0;
 
     public GameObject player;
     public GameObject pausemenuui;
@@ -27,6 +29,7 @@ public class LevelManager : MonoBehaviour
 
     public GameObject Settings;
 
+    
 
     private void Start()
     {
@@ -43,8 +46,9 @@ public class LevelManager : MonoBehaviour
         UpdateTimerUI();
         Life();
         PickUp();
+        KeyPickUp();
 
-        
+
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -105,7 +109,16 @@ public class LevelManager : MonoBehaviour
 
     public void PickUp()
     {
-        pickUpNbText.text = "Pick Up = " + pickUpNb;
+        pickUpNbText.text = "Wood x" + pickUpNb;
+        if (pickUpAudioBool)
+        {
+            pickUpAudioBool = false;
+            pickUpAudio.Play();
+        }
+    }
+    public void KeyPickUp()
+    {
+        keyPickUpNbText.text = "key x" + keyPickUpNb;
         if (pickUpAudioBool)
         {
             pickUpAudioBool = false;

@@ -23,7 +23,9 @@ public class LampeController : MonoBehaviour
     public float lightIntensity = 5;
     public bool playFlammeAllume;
     public LevelManager levelManager;
-
+    public Animator torcheAnim;
+    public float timerShoot;
+    float timerShootReset;
 
     // Start is called before the first frame update
     void Start()
@@ -38,13 +40,27 @@ public class LampeController : MonoBehaviour
         fireLight.intensity = lightIntensity;
         flammeAudio.Play();
         fireTimerText.text = "0";
-
+        timerShootReset = timerShoot;
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        timerShoot -= Time.deltaTime;
+        if (timerFire>5)
+        {
+            
+            if (Input.GetMouseButtonDown(0) && timerShoot < 0)
+            {
+                timerShoot = timerShootReset;
+                torcheAnim.SetTrigger("Attaque");
+                timerFire -= 5;
+                flammeAllume.Play();
+                flammeAudio.Play();
+            }
+        }
+        
         // le feu s'allume si le timer est plus grand que 0
         if (timerFire>=0)
         {
@@ -100,7 +116,6 @@ public class LampeController : MonoBehaviour
             timerFire = timerFireReset;
             
         }
-        
     }
      
     

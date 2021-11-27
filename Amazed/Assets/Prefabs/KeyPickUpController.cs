@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ennemie : MonoBehaviour
+public class KeyPickUpController : MonoBehaviour
 {
+    public LevelManager levelManager;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,22 +20,11 @@ public class Ennemie : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-        { 
-            LevelManager levelManager = GetComponentInParent<LevelManager>();
-            levelManager.life -= 1;
-        }
-
-        if (other.gameObject.tag == "Bullet")
         {
-            Kill();
+            levelManager.keyPickUpNb += 1;
+
+            levelManager.pickUpAudioBool = true;
+            Destroy(gameObject);
         }
     }
-
-    private void Kill()
-    {
-        Destroy(gameObject);
-    }
-
-
-
 }

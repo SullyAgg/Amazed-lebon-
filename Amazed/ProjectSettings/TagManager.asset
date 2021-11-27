@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CampFire
   - Lampe
+  - Ennemie
+  - Bullet
   layers:
   - Default
   - TransparentFX

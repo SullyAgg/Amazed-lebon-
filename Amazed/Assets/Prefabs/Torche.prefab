@@ -60,6 +60,8 @@ MonoBehaviour:
   lightIntensity: 3
   playFlammeAllume: 0
   levelManager: {fileID: 0}
+  torcheAnim: {fileID: 8818655831905848605}
+  fireBall: {fileID: 4299288796905433767, guid: 1ec92f4e5246b474592487f2183aa1a4, type: 3}
 --- !u!65 &4598061348037118622
 BoxCollider:
   m_ObjectHideFlags: 0
