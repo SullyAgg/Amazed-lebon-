@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Ennemie : MonoBehaviour
 {
+    public GameObject explosionParticle;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -31,6 +31,7 @@ public class Ennemie : MonoBehaviour
 
     private void Kill()
     {
+        Instantiate(explosionParticle,transform.position+Vector3.up*3,Quaternion.identity);
         Destroy(gameObject);
     }
 

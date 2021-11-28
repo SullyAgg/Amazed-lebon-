@@ -16,6 +16,12 @@ public class Agent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        fantome.SetDestination(target.position);
+        if(Mathf.Abs(transform.position.x-target.transform.position.x)<=20 || Mathf.Abs(transform.position.z - target.transform.position.z) <= 20)
+        {
+            fantome.SetDestination(target.position );
+        }
+        else
+        {
+        }
     }
 }
