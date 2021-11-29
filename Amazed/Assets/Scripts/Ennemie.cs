@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ennemie : MonoBehaviour
 {
     public GameObject explosionParticle;
+    public Transform spawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +32,7 @@ public class Ennemie : MonoBehaviour
 
     private void Kill()
     {
-        Instantiate(explosionParticle,transform.position+Vector3.up*3,Quaternion.identity);
+        Instantiate(explosionParticle,spawn.position,Quaternion.identity);
         Destroy(gameObject);
     }
 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2708986556112951827}
   - component: {fileID: 4544370707618521649}
   - component: {fileID: 1415234637476213346}
+  - component: {fileID: 7748572286568239403}
   m_Layer: 6
   m_Name: Pickup
   m_TagString: Untagged
@@ -175,6 +176,25 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!95 &7748572286568239403
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597932229014126059}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 06ea7fa4fe0264d429113cef76b7cf84, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1921622259358309379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,7 +246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b86ed8daf6f61e4e9725407d10e8265, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b86ed8daf6f61e4e9725407d10e8265, type: 3}
       propertyPath: m_LocalRotation.w

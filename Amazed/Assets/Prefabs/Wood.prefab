@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1720919382532461405}
   - component: {fileID: 1510246375067522680}
   - component: {fileID: 8273555056114364457}
-  - component: {fileID: 4513474324591999286}
   m_Layer: 0
   m_Name: Wood
   m_TagString: Untagged
@@ -60,13 +59,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
---- !u!114 &4513474324591999286
+--- !u!114 &3345812075350839337
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720919382532461404}
+  m_GameObject: {fileID: 1954710527064308382}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
@@ -151,6 +150,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44279657583be494291d7a1caf567bc0, type: 3}
+--- !u!1 &1954710527064308382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44279657583be494291d7a1caf567bc0, type: 3}
+  m_PrefabInstance: {fileID: 1720919383698524111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1183134377808371748 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 44279657583be494291d7a1caf567bc0, type: 3}
