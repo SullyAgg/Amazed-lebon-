@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3597932229014125972}
   - component: {fileID: 2708986556112951827}
   - component: {fileID: 4544370707618521649}
+  - component: {fileID: 1415234637476213346}
   m_Layer: 6
   m_Name: Pickup
   m_TagString: Untagged
@@ -156,6 +157,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
+--- !u!114 &1415234637476213346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3597932229014126059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 3
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &1921622259358309379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9056022691055312605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 3
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &8894249801793962343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -232,5 +269,10 @@ PrefabInstance:
 --- !u!4 &8999318433564321420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b86ed8daf6f61e4e9725407d10e8265, type: 3}
+  m_PrefabInstance: {fileID: 8894249801793962343}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9056022691055312605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 487459384268300218, guid: 5b86ed8daf6f61e4e9725407d10e8265, type: 3}
   m_PrefabInstance: {fileID: 8894249801793962343}
   m_PrefabAsset: {fileID: 0}

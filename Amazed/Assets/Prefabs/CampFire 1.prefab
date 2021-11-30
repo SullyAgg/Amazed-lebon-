@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2092099230075849582}
   - component: {fileID: 5930298751155464327}
   - component: {fileID: 2864558646265819328}
+  - component: {fileID: 4155265332343613982}
   m_Layer: 0
   m_Name: Cone001
   m_TagString: Untagged
@@ -81,6 +82,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4155265332343613982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695419344138015502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &902894186832295611
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +111,7 @@ GameObject:
   - component: {fileID: 6187068961837720454}
   - component: {fileID: 8881414725122755660}
   - component: {fileID: 3064120369727325633}
+  - component: {fileID: 4265523468764008670}
   m_Layer: 0
   m_Name: Hedra003
   m_TagString: Untagged
@@ -162,6 +182,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4265523468764008670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902894186832295611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1119911012899560825
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +211,7 @@ GameObject:
   - component: {fileID: 7811017515586738756}
   - component: {fileID: 6188339604345756506}
   - component: {fileID: 4316179726286187059}
+  - component: {fileID: 3363227536474584526}
   m_Layer: 0
   m_Name: Hedra011
   m_TagString: Untagged
@@ -243,6 +282,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3363227536474584526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119911012899560825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1683068233918017309
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,6 +311,7 @@ GameObject:
   - component: {fileID: 3399874500371162987}
   - component: {fileID: 4759205308879068357}
   - component: {fileID: 8651703916979222604}
+  - component: {fileID: 7554427920752904392}
   m_Layer: 0
   m_Name: Hedra004
   m_TagString: Untagged
@@ -324,6 +382,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7554427920752904392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683068233918017309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &2363463259793204284
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,6 +411,7 @@ GameObject:
   - component: {fileID: 7046257791307935558}
   - component: {fileID: 2805232674575498476}
   - component: {fileID: 1792923913351164120}
+  - component: {fileID: 1417108658013304283}
   m_Layer: 0
   m_Name: Hedra005
   m_TagString: Untagged
@@ -405,6 +482,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1417108658013304283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363463259793204284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &2644860522173692951
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,6 +511,7 @@ GameObject:
   - component: {fileID: 8553238989289253954}
   - component: {fileID: 7757059638500642166}
   - component: {fileID: 5933572215245787809}
+  - component: {fileID: 5154353641029853992}
   m_Layer: 0
   m_Name: Hedra013
   m_TagString: Untagged
@@ -486,6 +582,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5154353641029853992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2644860522173692951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &2744269541398013223
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +611,7 @@ GameObject:
   - component: {fileID: 9162606190511350687}
   - component: {fileID: 186437947923302347}
   - component: {fileID: 3228534139459186939}
+  - component: {fileID: 8653505416949572197}
   m_Layer: 0
   m_Name: Hedra008
   m_TagString: Untagged
@@ -567,6 +682,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8653505416949572197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2744269541398013223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &2904392673630404697
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +711,7 @@ GameObject:
   - component: {fileID: 8327060035723496999}
   - component: {fileID: 6360517384638065923}
   - component: {fileID: 7058926330594578088}
+  - component: {fileID: 1742150797628306655}
   m_Layer: 0
   m_Name: Hedra012
   m_TagString: Untagged
@@ -648,6 +782,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1742150797628306655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2904392673630404697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &2997815023470454556
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +811,7 @@ GameObject:
   - component: {fileID: 8985460703297409703}
   - component: {fileID: 259947753137103259}
   - component: {fileID: 1702758481324847495}
+  - component: {fileID: 2650822686063415849}
   m_Layer: 0
   m_Name: Hedra006
   m_TagString: Untagged
@@ -729,6 +882,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2650822686063415849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2997815023470454556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &3023812159378971995
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,6 +911,7 @@ GameObject:
   - component: {fileID: 2468999912518543015}
   - component: {fileID: 7863291835378348005}
   - component: {fileID: 3817636695268070770}
+  - component: {fileID: 5226620061157412035}
   m_Layer: 0
   m_Name: Cone004
   m_TagString: Untagged
@@ -810,6 +982,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5226620061157412035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3023812159378971995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &3277747470246923643
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +1152,7 @@ GameObject:
   - component: {fileID: 9003561775174902892}
   - component: {fileID: 466677465641045946}
   - component: {fileID: 9079626851115291243}
+  - component: {fileID: 3344967593318372819}
   m_Layer: 0
   m_Name: Hedra015
   m_TagString: Untagged
@@ -1032,6 +1223,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3344967593318372819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3471862874504592188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &3506668732041827485
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,6 +1252,7 @@ GameObject:
   - component: {fileID: 4595469745917865732}
   - component: {fileID: 4523950783715008472}
   - component: {fileID: 5002892744167667149}
+  - component: {fileID: 5667936005274681342}
   m_Layer: 0
   m_Name: Hedra010
   m_TagString: Untagged
@@ -1113,6 +1323,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5667936005274681342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3506668732041827485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &3577885720949678868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1446,7 @@ GameObject:
   - component: {fileID: 3577885721608781825}
   - component: {fileID: 3577885721608781824}
   - component: {fileID: 3577885721608781827}
+  - component: {fileID: 4358125643946384893}
   m_Layer: 0
   m_Name: CampFire 1
   m_TagString: CampFire
@@ -1306,6 +1535,24 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 1.5, z: -0.00000008940697}
+--- !u!114 &4358125643946384893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3577885721608781826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &4386278008563502587
 GameObject:
   m_ObjectHideFlags: 0
@@ -1317,6 +1564,7 @@ GameObject:
   - component: {fileID: 3680353455810654909}
   - component: {fileID: 5775026655591132364}
   - component: {fileID: 4558907752586825288}
+  - component: {fileID: 7471663893775265007}
   m_Layer: 0
   m_Name: Hedra009
   m_TagString: Untagged
@@ -1387,6 +1635,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7471663893775265007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386278008563502587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &4685604279749309262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,6 +1664,7 @@ GameObject:
   - component: {fileID: 2143714023860200029}
   - component: {fileID: 7654125118871504373}
   - component: {fileID: 4337207230395430752}
+  - component: {fileID: 3878659489242914367}
   m_Layer: 0
   m_Name: Cone003
   m_TagString: Untagged
@@ -1468,6 +1735,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3878659489242914367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4685604279749309262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &5171236205349654984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,6 +1764,7 @@ GameObject:
   - component: {fileID: 3340644906679388821}
   - component: {fileID: 2443045501157395929}
   - component: {fileID: 6621301587569580053}
+  - component: {fileID: 5939665614482208380}
   m_Layer: 0
   m_Name: Cone005
   m_TagString: Untagged
@@ -1549,6 +1835,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5939665614482208380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5171236205349654984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &5325855641407401307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1864,7 @@ GameObject:
   - component: {fileID: 7503189509268150035}
   - component: {fileID: 5225460978691870043}
   - component: {fileID: 2690649330867322903}
+  - component: {fileID: 8219153185904738930}
   m_Layer: 0
   m_Name: Hedra007
   m_TagString: Untagged
@@ -1630,6 +1935,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8219153185904738930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5325855641407401307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &6806374474763357684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1641,6 +1964,7 @@ GameObject:
   - component: {fileID: 5791980225733938617}
   - component: {fileID: 813909622278890973}
   - component: {fileID: 9031528950569015561}
+  - component: {fileID: 1974401441812107014}
   m_Layer: 0
   m_Name: Hedra002
   m_TagString: Untagged
@@ -1711,6 +2035,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1974401441812107014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6806374474763357684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &7242816839708282236
 GameObject:
   m_ObjectHideFlags: 0
@@ -1722,6 +2064,7 @@ GameObject:
   - component: {fileID: 6511733146024963555}
   - component: {fileID: 7579344660840994670}
   - component: {fileID: 3986291073398050277}
+  - component: {fileID: 1634570174469881643}
   m_Layer: 0
   m_Name: Cone006
   m_TagString: Untagged
@@ -1792,6 +2135,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1634570174469881643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7242816839708282236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &7458777863984507006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,7 +2177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7458777863984507006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.256, z: 0}
+  m_LocalPosition: {x: 0, y: -0.219, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 2092099230075849582}
@@ -1853,6 +2214,7 @@ GameObject:
   - component: {fileID: 2446020722515221864}
   - component: {fileID: 2446476810691437528}
   - component: {fileID: 161068698491579537}
+  - component: {fileID: 7825591330509290915}
   m_Layer: 0
   m_Name: Hedra001
   m_TagString: Untagged
@@ -1923,6 +2285,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7825591330509290915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8631272636341481428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &8936170228272285776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +2314,7 @@ GameObject:
   - component: {fileID: 7125934063362032013}
   - component: {fileID: 3687668441938207904}
   - component: {fileID: 350655697616265982}
+  - component: {fileID: 6723326422190769254}
   m_Layer: 0
   m_Name: Cone002
   m_TagString: Untagged
@@ -2004,6 +2385,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6723326422190769254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8936170228272285776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &3577885719622621886
 PrefabInstance:
   m_ObjectHideFlags: 0
