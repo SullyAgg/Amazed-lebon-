@@ -5,6 +5,8 @@ using UnityEngine;
 public class Ennemie : MonoBehaviour
 {
     public GameObject explosionParticle;
+    public Transform spawnPoint;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,15 +28,17 @@ public class Ennemie : MonoBehaviour
         if (other.gameObject.tag == "Bullet")
         {
             Kill();
+            
         }
     }
 
     private void Kill()
     {
         Instantiate(explosionParticle,transform.position+Vector3.up*3,Quaternion.identity);
-        Destroy(gameObject);
+        gameObject.transform.position = spawnPoint.position;
+        
     }
 
-
+ 
 
 }
