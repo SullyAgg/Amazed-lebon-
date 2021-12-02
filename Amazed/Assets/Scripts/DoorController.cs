@@ -6,14 +6,10 @@ using UnityEngine.UI;
 
 public class DoorController : MonoBehaviour
 {
-    public GameObject door;
+    public Animator animator;
     public GameObject player;
-    public float doorSpeed;
-
-    public float doorPosition = 3;
     public bool doorOpen = false;
     public bool openDoor = false;
-    private float doorPos;
     public LevelManager levelManager;
     public Text doorText;
     public bool playerNextDoor;
@@ -21,7 +17,6 @@ public class DoorController : MonoBehaviour
 
     private void Start()
     {
-        doorPos = doorPosition;
         doorOpen = false;
         openDoor=false;
         doorText.text = "";
@@ -35,6 +30,7 @@ public class DoorController : MonoBehaviour
         {
             Debug.Log("Open");
             OpenDoor();
+            openDoor = false;
         }
     }
 
@@ -53,26 +49,21 @@ public class DoorController : MonoBehaviour
                     levelManager.keyPickUpNb -= 1;
                 }
             }
-            else
-            {
-                doorText.text = "";
-            }
+            
         }
     }
-    
+    public void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+
+            doorText.text = "";
+        }
+    }
+
     void OpenDoor()
     {
-        if (doorPos >= 0)
-        {
-            doorPos -= doorSpeed * Time.deltaTime;
-            door.transform.position += Vector3.up * doorSpeed * Time.deltaTime;
-            Debug.Log("opendoor");
-        }
-        else
-        {
-            doorOpen = true;
-            openDoor = false;
-        }
+        animator.SetTrigger("Open");
     }
 
 
