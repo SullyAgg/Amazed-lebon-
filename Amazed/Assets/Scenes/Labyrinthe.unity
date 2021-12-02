@@ -147,6 +147,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1988807349}
     - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1508504293}
+    - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
       propertyPath: explosionParticle
       value: 
       objectReference: {fileID: 8195288174852172753, guid: b7d02d577e0d09840b94b315ef4b8b34, type: 3}
@@ -1637,6 +1641,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1988807349}
+    - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1508504293}
     - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
       propertyPath: explosionParticle
       value: 
@@ -4138,6 +4146,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1988807349}
+    - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1508504293}
     - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
       propertyPath: explosionParticle
       value: 
@@ -6885,6 +6897,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1988807349}
+    - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1508504293}
     - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
       propertyPath: explosionParticle
       value: 
@@ -10054,6 +10070,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1988807349}
     - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1508504293}
+    - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
       propertyPath: explosionParticle
       value: 
       objectReference: {fileID: 8195288174852172753, guid: b7d02d577e0d09840b94b315ef4b8b34, type: 3}
@@ -10896,6 +10916,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 1988807349}
+    - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
+      propertyPath: spawn
+      value: 
+      objectReference: {fileID: 1508504293}
     - target: {fileID: 4384434391207642130, guid: 12e09a9707f3b394ea9978ccc9b82e10, type: 3}
       propertyPath: explosionParticle
       value: 
