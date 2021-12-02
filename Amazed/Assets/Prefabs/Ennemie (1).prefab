@@ -460,6 +460,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionParticle: {fileID: 0}
   spawn: {fileID: 3646612555103070279}
+  damage: 0
+  timerDamage: 2
 --- !u!135 &2299978745549953921
 SphereCollider:
   m_ObjectHideFlags: 0

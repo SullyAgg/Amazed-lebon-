@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
     }
     void Gravity()
     {
-        velocity.y += gravity * Time.deltaTime ;
+        velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
 
         //vrai si la sphere creer rentre en collision avec un objet de Mask sol
@@ -64,5 +64,5 @@ public class PlayerController : MonoBehaviour
         {
             velocity.y = -2f;
         }
-    }
+    } 
 }
