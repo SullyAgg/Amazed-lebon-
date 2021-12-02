@@ -463,6 +463,8 @@ MonoBehaviour:
   damage: 0
   timerDamage: 1
   hitMarker: {fileID: 0}
+  life: 100
+  hitDamage: 100
 --- !u!135 &2299978745549953921
 SphereCollider:
   m_ObjectHideFlags: 0

@@ -10,6 +10,8 @@ public class Ennemie : MonoBehaviour
     public float timerDamage;
     float resetTimer;
     public GameObject hitMarker;
+    public int life = 100;
+    public int hitDamage=100;
 
 
     // Start is called before the first frame update
@@ -38,9 +40,13 @@ public class Ennemie : MonoBehaviour
                 hitMarker.SetActive(false);
             }
         }
-        
+        if (life <= 0)
+        {
+            Kill();
+        }
 
-   
+
+
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -51,7 +57,7 @@ public class Ennemie : MonoBehaviour
 
         if (other.gameObject.tag == "Bullet")
         {
-            Kill();
+            life -= hitDamage;
         }
     }
 
