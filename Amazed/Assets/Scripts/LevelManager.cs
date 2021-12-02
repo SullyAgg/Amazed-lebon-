@@ -31,11 +31,12 @@ public class LevelManager : MonoBehaviour
     public RawImage lifeBar1;
 
     public GameObject Settings;
-
+    public GameObject campFire;
     
 
     private void Start()
     {
+        
         Settings.SetActive(false);
         
         Time.timeScale = 1;
@@ -56,6 +57,13 @@ public class LevelManager : MonoBehaviour
         {
             life += 1;
             potionNb -= 1;
+
+        }
+
+        if (Input.GetMouseButtonDown(1) && pickUpNb >= 3 )
+        {
+            pickUpNb -= 3;
+            Instantiate(campFire, player.transform.position + Vector3.forward,Quaternion.identity);
 
         }
 
