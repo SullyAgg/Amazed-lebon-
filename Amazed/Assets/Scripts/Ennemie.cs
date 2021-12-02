@@ -9,6 +9,7 @@ public class Ennemie : MonoBehaviour
     public bool damage;
     public float timerDamage;
     float resetTimer;
+    public GameObject hitMarker;
 
 
     // Start is called before the first frame update
@@ -22,15 +23,22 @@ public class Ennemie : MonoBehaviour
     {
         if (damage)
         {
-            LevelManager levelManager = GetComponentInParent<LevelManager>();
-            levelManager.life -= 1;
+            hitMarker.SetActive(true);
+            if(timerDamage==resetTimer)
+            {
+                LevelManager levelManager = GetComponentInParent<LevelManager>();
+                levelManager.life -= 1;
+            }
+            
             timerDamage -= Time.deltaTime;
             if(timerDamage < 0)
             {
                 damage = false;
                 timerDamage = resetTimer;
+                hitMarker.SetActive(false);
             }
         }
+        
 
    
     }

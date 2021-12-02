@@ -9,13 +9,16 @@ public class LevelManager : MonoBehaviour
     public Text timerText;
     public Text pickUpNbText;
     public Text keyPickUpNbText;
+    public Text potionNbText;
 
 
     private float secondsCount;
     private int minuteCount;
     public float life = 3;
+
     public int pickUpNb =0;
     public int keyPickUpNb = 0;
+    public int potionNb = 0;
 
     public GameObject player;
     public GameObject pausemenuui;
@@ -47,8 +50,14 @@ public class LevelManager : MonoBehaviour
         Life();
         PickUp();
         KeyPickUp();
+        Potion();
 
+        if (Input.GetKeyDown(KeyCode.A)&&life<3&&potionNb>=1)
+        {
+            life += 1;
+            potionNb -= 1;
 
+        }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -107,6 +116,15 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void Potion()
+    {
+        potionNbText.text = "Potion x" + potionNb;
+        if (pickUpAudioBool)
+        {
+            pickUpAudioBool = false;
+            pickUpAudio.Play();
+        }
+    }
     public void PickUp()
     {
         pickUpNbText.text = "Wood x" + pickUpNb;
