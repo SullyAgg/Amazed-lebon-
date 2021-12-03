@@ -12,6 +12,7 @@ public class Ennemie : MonoBehaviour
     public GameObject hitMarker;
     public int life = 100;
     public int hitDamage=100;
+    
 
 
     // Start is called before the first frame update
@@ -25,7 +26,7 @@ public class Ennemie : MonoBehaviour
     {
         if (damage)
         {
-            hitMarker.SetActive(true);
+            
             if(timerDamage==resetTimer)
             {
                 LevelManager levelManager = GetComponentInParent<LevelManager>();
@@ -53,6 +54,7 @@ public class Ennemie : MonoBehaviour
         if (other.gameObject.tag == "Player" && !damage)
         {
             damage = true;
+            hitMarker.SetActive(true);
         }
 
         if (other.gameObject.tag == "Bullet")

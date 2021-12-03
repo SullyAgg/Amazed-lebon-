@@ -424,6 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 3387520261513585234, guid: 17fa9d37d9b72794ab3d036b47ec9ec8, type: 3}
+  distance: 50
 --- !u!195 &4384434391207642131
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -433,7 +434,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 7975258570692146832}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 5
+  m_Radius: 1
   m_Speed: 10
   m_Acceleration: 8
   avoidancePriority: 50

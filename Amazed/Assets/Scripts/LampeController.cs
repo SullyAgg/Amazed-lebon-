@@ -26,11 +26,13 @@ public class LampeController : MonoBehaviour
     public Animator torcheAnim;
     public float timerShoot;
     float timerShootReset;
+    public Animator timerRedText;
 
     // Start is called before the first frame update
     void Start()
     {
         timerFireReset = timerFire;
+        timerFire = 0;
         orangeSmoke.Play();
         smoke.Play();
         flame.Play();
@@ -58,6 +60,7 @@ public class LampeController : MonoBehaviour
                 timerFire -= 5;
                 flammeAllume.Play();
                 flammeAudio.Play();
+                timerRedText.SetTrigger("Play");
             }
         }
         
