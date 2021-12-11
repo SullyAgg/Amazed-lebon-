@@ -21,9 +21,9 @@ public class FireBall : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private void OnColliderEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag!="Lampe")
+        if (other.gameObject.tag == "Ennemie")
         {
             Destroy(gameObject);
         }

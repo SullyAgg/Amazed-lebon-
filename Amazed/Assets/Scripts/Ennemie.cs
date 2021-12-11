@@ -5,12 +5,14 @@ using UnityEngine;
 public class Ennemie : MonoBehaviour
 {
     public GameObject explosionParticle;
+    public Transform spawnExplosion;
     public Transform spawn;
     public bool damage;
     public float timerDamage;
     float resetTimer;
     public GameObject hitMarker;
     public int life = 100;
+    public int resetLife;
     public int hitDamage=100;
     
 
@@ -19,6 +21,7 @@ public class Ennemie : MonoBehaviour
     void Start()
     {
         resetTimer = timerDamage;
+        resetLife = life;
     }
 
     // Update is called once per frame
@@ -43,7 +46,9 @@ public class Ennemie : MonoBehaviour
         }
         if (life <= 0)
         {
+            hitMarker.SetActive(false);
             Kill();
+            life = resetLife;
         }
 
 
@@ -66,8 +71,8 @@ public class Ennemie : MonoBehaviour
 
     private void Kill()
     {
-        Instantiate(explosionParticle,spawn.position,Quaternion.identity);
-        Destroy(gameObject);
+        Instantiate(explosionParticle,spawnExplosion.position,Quaternion.identity);
+        gameObject.transform.position = spawn.transform.position;
     }
 
 

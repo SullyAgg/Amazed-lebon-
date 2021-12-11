@@ -126,7 +126,7 @@ public class LevelManager : MonoBehaviour
 
     public void Potion()
     {
-        potionNbText.text = "Potion x" + potionNb;
+        potionNbText.text = "x" + potionNb;
         if (pickUpAudioBool)
         {
             pickUpAudioBool = false;
@@ -135,7 +135,7 @@ public class LevelManager : MonoBehaviour
     }
     public void PickUp()
     {
-        pickUpNbText.text = "Wood x" + pickUpNb;
+        pickUpNbText.text = "x" + pickUpNb;
         if (pickUpAudioBool)
         {
             pickUpAudioBool = false;
@@ -144,7 +144,7 @@ public class LevelManager : MonoBehaviour
     }
     public void KeyPickUp()
     {
-        keyPickUpNbText.text = "key x" + keyPickUpNb;
+        keyPickUpNbText.text = "x" + keyPickUpNb;
         if (pickUpAudioBool)
         {
             pickUpAudioBool = false;
