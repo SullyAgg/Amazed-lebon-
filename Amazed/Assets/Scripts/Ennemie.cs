@@ -56,6 +56,8 @@ public class Ennemie : MonoBehaviour
             timerDamage -= Time.deltaTime;
             if(timerDamage<0)
             {
+                timerDamage = resetTimer;
+                damage = false;
                 hitMarker.SetActive(false);
             }
         }
@@ -65,6 +67,7 @@ public class Ennemie : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && !damage)
         {
+            levelManager.life -= 1;
             damage = true;
             hitMarker.SetActive(true);
         }

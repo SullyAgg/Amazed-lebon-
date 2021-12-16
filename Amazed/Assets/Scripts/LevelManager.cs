@@ -19,6 +19,7 @@ public class LevelManager : MonoBehaviour
     public int pickUpNb =0;
     public int keyPickUpNb = 0;
     public int potionNb = 0;
+    public AudioSource healSound;
 
     public GameObject player;
     public GameObject pausemenuui;
@@ -58,6 +59,8 @@ public class LevelManager : MonoBehaviour
         {
             life += 1;
             potionNb -= 1;
+
+            healSound.Play();
 
         }
 

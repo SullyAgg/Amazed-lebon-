@@ -23,6 +23,7 @@ public class PotionController : MonoBehaviour
             levelManager.potionNb += 1;
             levelManager.pickUpAudioBool = true;
             Destroy(gameObject);
+
         }
     }
 }

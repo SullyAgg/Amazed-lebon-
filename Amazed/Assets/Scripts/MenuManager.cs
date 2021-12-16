@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
 
     public void playgame()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Time.timeScale = 1;
         

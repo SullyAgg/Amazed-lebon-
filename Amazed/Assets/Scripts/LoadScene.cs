@@ -16,10 +16,12 @@ public class LoadScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timerScene -= Time.deltaTime;
-        if (timerScene<0)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
+
+    }
+
+    public void OK()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
