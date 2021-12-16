@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
-    
+    public  GameObject restartUI;
     public Text timerText;
     public Text pickUpNbText;
     public Text keyPickUpNbText;
@@ -44,6 +44,7 @@ public class LevelManager : MonoBehaviour
         Cursor.visible = false;
         Gameispaused = false;
         pausemenuui.SetActive(false);
+        restartUI.SetActive(false);
     }
     void Update()
     {
@@ -102,7 +103,8 @@ public class LevelManager : MonoBehaviour
         }
         if (life <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+            restartUI.SetActive(true);
+            Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
@@ -176,6 +178,11 @@ public class LevelManager : MonoBehaviour
     public void Loadmenu()
     {
         SceneManager.LoadScene(0);
+    }
+    public void Restart()
+    {
+        SceneManager.LoadScene(2);
+        Time.timeScale = 1;
     }
     public void Quitgame()
     {
